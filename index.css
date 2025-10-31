@@ -1,0 +1,35 @@
+.carrusel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+
+.vista{
+    border: 2px solid;
+    width: 800px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+
+.vista > p{
+    text-align: center;
+    padding-top: 80px;
+    font-size: 40px;
+}
+
+
+
+
+.buttons > button{
+    margin-left: 210px;
+    margin-right: 200px;
+    padding: 12px;
+    border-radius: 8px;
+    width: 150px;
+    font-size: 18px;
+}
